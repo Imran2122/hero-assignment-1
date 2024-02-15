@@ -1,3 +1,11 @@
+section {
+  margin-top: 60px;
+}
+.btn-primary {
+  background-color: firebrick;
+  padding: 15px 30px;
+  border: 0px;
+}
 .banner-section {
   background-image: url(../resources/Banner\ Image.png);
   width: 1320px;
@@ -8,23 +16,109 @@
   color: #f4e6e6;
   text-align: center;
   padding: 230px;
- 
 }
-.discount-section{
-    margin-top: 30px;
-
+.discount-section {
+  margin-top: 30px;
 }
-.discount{
+.discount {
   text-align: center;
 }
 .discount h1 {
-    color: #FF0000;
-    font-size: 50px;
+  color: #ff0000;
+  font-size: 50px;
 }
 .discount h5 {
-    color: #FF0000;
+  color: #ff0000;
 }
-.discount .images{
-    height: 500px;
-    width: 802.9px ;
+.discount .images {
+  height: 500px;
+  width: 802.9px;
+}
+
+.new-year {
+  background-image: url(../resources/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+.new-year-title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.victory-heading {
+  padding: 60px;
+}
+.victory-image img {
+  width: 320px;
+  height: 465px;
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+.victory-heading h1 {
+  color: #f4e6e6;
+  font-size: 80px;
+}
+.victory-heading p {
+  color: #f4e6e6;
+}
+
+.schedule {
+  width: 1320px;
+  height: 482px;
+  background-color: #f4e6e6;
+  margin: 0 auto;
+}
+.schedule .schedule-title {
+  text-align: center;
+  padding: 120px;
+}
+.schedule .schedule-title .btn-primary {
+  margin-top: 20px;
+}
+.schedule span {
+  color: #ff0000;
+}
+.feather {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+}
+.new-feather {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feather-header {
+  margin-top: 130px;
+}
+
+.new-iamge {
+  border: 10px solid red;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.portfolio-section {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.portfolio img:hover {
+  border: 2px solid green;
+  border-radius: 25px;
+}
+.Subscribe{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+background-color: bisque;
 }
