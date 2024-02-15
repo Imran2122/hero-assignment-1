@@ -1,0 +1,30 @@
+.banner-section {
+  background-image: url(../resources/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #f4e6e6;
+  text-align: center;
+  padding: 230px;
+ 
+}
+.discount-section{
+    margin-top: 30px;
+
+}
+.discount{
+  text-align: center;
+}
+.discount h1 {
+    color: #FF0000;
+    font-size: 50px;
+}
+.discount h5 {
+    color: #FF0000;
+}
+.discount .images{
+    height: 500px;
+    width: 802.9px ;
+}
