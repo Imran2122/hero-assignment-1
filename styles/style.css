@@ -117,6 +117,7 @@ section {
 }
 
 .subcribe {
+  position: relative;
   height: 616px;
   width: 1320px;
   background-color: azure;
@@ -124,6 +125,7 @@ section {
   margin-top: 740px;
   text-align: center;
   position: relative;
+
 }
 .form-title #form {
   height: 100%;
@@ -133,12 +135,7 @@ section {
   outline: none;
   border: 2px solid green;
 }
-.Subscribe-section #new-button {
-  position: absolute;
-  top: 55%;
-
-padding: 40px;
-}
+ 
 
 .footer-container{
   background-color: black;
